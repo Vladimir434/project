@@ -1,5 +1,6 @@
 import "./App.css";
-import Hesder from "./components/header/hesder";
+// import Hesder from "./components/header/hesder";
+import Shop from "./components/shop/shop";
 
 function App() {
   // let name = "ivan";
@@ -17,16 +18,21 @@ function App() {
   //   console.log(id);
   // }
 
-  const isAdmin = true;
+  // const isAdmin = true;
   return (
     <>
-      <div>
-        <Hesder />
+    <div>
+      <Shop title={'hello'} subTitle={'Vladimir'}>
+        Lorem ipsum dolor sit. lorem12
+        </Shop>   
       </div>
+      {/* <div>
+        <Hesder />
+      </div> */}
       <div>
         {/* {isAdmin === true ? <h1>Hello Admin</h1> : <h1>Hello user</h1>} */}
-        {isAdmin && <h1>Hello admon</h1>}
-        {!isAdmin && <h1>Hello user</h1>}
+        {/* {isAdmin && <h1>Hello admon</h1>}
+        {!isAdmin && <h1>Hello user</h1>} */}
       </div>
       {/* <h2>{getName(true)}</h2> */}
       {/* <div>
