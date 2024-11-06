@@ -22,8 +22,7 @@ function App() {
   return (
     <>
     <div>
-      <Shop title={'hello'} subTitle={'Vladimir'}>
-        Lorem ipsum dolor sit. lorem12
+      <Shop title={'hello'} subTitle={'Vladimir'} log={'goodbye'}>
         </Shop>   
       </div>
       {/* <div>
@@ -33,16 +32,18 @@ function App() {
         {/* {isAdmin === true ? <h1>Hello Admin</h1> : <h1>Hello user</h1>} */}
         {/* {isAdmin && <h1>Hello admon</h1>}
         {!isAdmin && <h1>Hello user</h1>} */}
+      <div>
+        </div>
+        {/* <h2>{getName(true)}</h2> */}
+        {/* <div>
+          <button className="btn" onClick={() => onHandleClick(1323)}>click mi</button>
+        </div> */}
+        {/* <div>
+          { {arrayName.map((item,index) =>(
+            <p key={index}>{item.name}</p>
+          ))}}
+        </div> */}
       </div>
-      {/* <h2>{getName(true)}</h2> */}
-      {/* <div>
-        <button className="btn" onClick={() => onHandleClick(1323)}>click mi</button>
-      </div> */}
-      {/* <div>
-        { {arrayName.map((item,index) =>(
-          <p key={index}>{item.name}</p>
-        ))}}
-      </div> */}
     </>
   );
 }

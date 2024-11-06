@@ -5,8 +5,8 @@ const Shop = ({title ,subTitle, ...props}) => {
     <>
     <h1>{title}</h1>
     <h2>{subTitle}</h2>
-    <div style={{border: '1px solid red'}}>
-      {props.children}
+    <div style={{border: '1px solid red', padding:'21px', margin:'123px 0 0 0'}}>
+      {title}, {subTitle}
     </div>
     </>
     
